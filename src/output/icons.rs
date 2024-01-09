@@ -102,7 +102,7 @@ pub fn icon_for_file(file: &File<'_>) -> char {
             "bin"           => '\u{e5fc}', // 
             ".git"          => '\u{f1d3}', // 
             ".idea"         => '\u{e7b5}', // 
-            _               => '\u{f115}'  // 
+            _               => '\u{f024b}'  // 󰉋
         }
     }
     else if let Some(icon) = extensions.icon_file(file) { icon }
@@ -144,7 +144,7 @@ pub fn icon_for_file(file: &File<'_>) -> char {
             "csh"           => '\u{f489}', // 
             "cshtml"        => '\u{f1fa}', // 
             "csproj"        => '\u{f031b}', // 󰌛
-            "css"           => '\u{e749}', // 
+            "css"           => '\u{e22b}', // 
             "csv"           => '\u{f1c3}', // 
             "csx"           => '\u{f031b}', // 󰌛
             "cxx"           => '\u{e61d}', // 
@@ -202,7 +202,7 @@ pub fn icon_for_file(file: &File<'_>) -> char {
             "hpp"           => '\u{f0fd}', // 
             "hs"            => '\u{e777}', // 
             "htm"           => '\u{f13b}', // 
-            "html"          => '\u{f13b}', // 
+            "html"          => '\u{e60e}', // 
             "hxx"           => '\u{f0fd}', // 
             "ico"           => '\u{f1c5}', // 
             "image"         => '\u{f1c5}', // 
@@ -248,7 +248,7 @@ pub fn icon_for_file(file: &File<'_>) -> char {
             "mm"            => '\u{e61d}', // 
             "m4a"           => '\u{f001}', // 
             "markdown"      => '\u{f48a}', // 
-            "md"            => '\u{f48a}', // 
+            "md"            => '\u{f0dc9}', // 󰷉
             "mjs"           => '\u{e74e}', // 
             "mk"            => '\u{f489}', // 
             "mkd"           => '\u{f48a}', // 
@@ -270,7 +270,7 @@ pub fn icon_for_file(file: &File<'_>) -> char {
             "otf"           => '\u{f031}', // 
             "part"          => '\u{f43a}', // 
             "patch"         => '\u{f440}', // 
-            "pdf"           => '\u{f1c1}', // 
+            "pdf"           => '\u{eaeb}', // 
             "php"           => '\u{e73d}', // 
             "pl"            => '\u{e769}', // 
             "plx"           => '\u{e769}', // 
@@ -344,6 +344,7 @@ pub fn icon_for_file(file: &File<'_>) -> char {
             "tzo"           => '\u{f410}', // 
             "video"         => '\u{f03d}', // 
             "vim"           => '\u{e62b}', // 
+            "viminfo"       => '\u{e62b}', // 
             "vue"           => '\u{f0844}', // 󰡄
             "war"           => '\u{e256}', // 
             "wav"           => '\u{f001}', // 
